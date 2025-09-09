@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    display: flex;
+    height: 100%;
+}
+
+
+#esquerda {
+    background-color: darkslategray;
+    color: white;
+    padding-left: 20px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+
+
+#direita {
+    padding-left: 20px;
+}
+
+
+#imagem {
+    padding-top: 30px;
+    padding-right: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+
+.divs {
+    padding-top: 10px;
+    margin: 0;
+}
+
+
+.divs h4, .divs p {
+    margin: 4px 0;
+}
+
+
+.ano {
+    display: flex;
+}
+
+
+.ano p {
+    margin-left: auto;
+    padding-right: 30px;
+}
