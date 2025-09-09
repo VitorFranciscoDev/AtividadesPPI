@@ -1,0 +1,31 @@
+html, body {
+    background-color: gray;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 1000px;
+    height: 540px;
+    background-color: white;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil div {
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
