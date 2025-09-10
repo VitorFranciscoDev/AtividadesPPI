@@ -1,3 +1,7 @@
+/* 
+A box ocupa 100% da altura, mas ocupa apenas 25% da largura
+*/
+
 html, body {
     height: 100vh;
     width: 100%;

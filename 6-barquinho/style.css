@@ -3,6 +3,7 @@ body {
     position: relative;
     margin: 0;
     background-color: rgb(168, 235, 255);
+    overflow: hidden;
 }
 
 #mar {
@@ -11,44 +12,18 @@ body {
     height: 200px;
     bottom: 0;
     background: linear-gradient(to top, rgb(54, 54, 255), aqua);
-    animation: ondas 3s infinite ease-in-out;
-}
-
-@keyframes ondas {
-    0% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(10%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
 }
 
 #barquinho {
     position: absolute;
     bottom: 100px;
-    left: 40%;
     width: 400px;
     height: 400px;
     transform: rotateY(180deg);
     background-image: url(https://images.vexels.com/media/users/3/206225/isolated/preview/94dd0d044efc77eb85b73a91be75415a-ilustracao-de-barco-historico-simples.png);
     background-size: cover;
     transform-origin: center;
-    animation: balanco 1.5s infinite ease-in-out;
-}
-
-@keyframes balanço {
-    0%, 100% {
-        transform: rotate(-5deg);
-    }
-
-    50% {
-        transform: rotate(5deg);
-    }
+    animation: movimentoBarquinho 8s infinite ease-in-out;
 }
 
 #nuvem {
@@ -56,15 +31,25 @@ body {
     width: 300px;
     height: 100px;
     top: 10%;
-    left: -200px;
     background-color: rgb(159, 255, 255);
     border-radius: 50%;
-    animation: movimento 10s linear infinite;
+    box-shadow: 1px 1px 1px;
+    animation: movimentoNuvem 10s infinite ease-in-out;
 }
 
-@keyframes movimento {
+@keyframes movimentoBarquinho {
     0% {
-        left: -300px;
+        left: -400px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes movimentoNuvem {
+    0% {
+        left:-300px;
     }
 
     100% {

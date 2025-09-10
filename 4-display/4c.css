@@ -12,29 +12,29 @@ html, body {
 }
 
 #vermelho {
-    background-color: red;
+    background-color: red; /*Posição inicial do box*/
 }
 
 #amarelo {
     background-color: yellow;
-    right: 0;
+    right: 0; /*Alinhado a direita*/
 }
 
 #azul {
     background-color: blue;
-    left: 0;
-    bottom: 0;
+    left: 0; /*Alinhado a esquerda*/
+    bottom: 0; /*Alinhado ao bottom*/
 }
 
 #verde {
     background-color: green;
-    right: 0;
-    bottom: 0;
+    right: 0; /*Alinhado a direita*/
+    bottom: 0; /*Alinhado ao bottom*/
 }
 
 #rosa {
     background-color: fuchsia;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*Meio da tela*/
 }
