@@ -1,14 +1,10 @@
-/*
-Todas as box ocupam 100% da largura, mas ocupam apenas 25% da altura.
-*/
-
 html, body {
     height: 100vh;
     width: 100%;
     margin: 0;
 }
 
-.box {
+.box { /*Todas as box ocupam 100% da largura, mas ocupam apenas 25% da altura.*/
     height: 25vh;
     width: 100%;
     display: flex;

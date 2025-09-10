@@ -11,8 +11,8 @@ html, body {
     position: absolute;
 }
 
-#vermelho {
-    background-color: red; /*Posição inicial do box*/
+#vermelho { /*Posição inicial do box*/
+    background-color: red;
 }
 
 #amarelo {
