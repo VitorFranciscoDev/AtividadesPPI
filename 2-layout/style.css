@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(135deg, #e91e63, #9c27b0);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #d81b60;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+nav {
+    background: linear-gradient(180deg, #c0b36e, #a89f5e);
+    width: 200px;
+    padding: 20px;
+    border: 3px solid #968d4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    background: linear-gradient(135deg, #ffb74d, #ff8a65);
+    padding: 30px;
+    border: 3px solid #f57c00;
+    overflow-y: auto;
+}
+
+.content-inner {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #ffcc80, #ffab91);
+    border: 2px solid #333;
+    flex-shrink: 0;
+}
+
+.text-lines {
+    flex: 1;
+}
+
+.line {
+    height: 8px;
+    background-color: #333;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+footer {
+    background: linear-gradient(90deg, #26a69a, #4db6ac);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #00897b;
+}
