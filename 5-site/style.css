@@ -58,7 +58,29 @@ main {
     line-height: 1.6;
 }
 
-#rodape {
-    text-align: center;
-    margin-top: 40px;
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    main {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .caixa {
+        padding: 10px;
+    }
+
+    .caixa h2 {
+        font-size: 18px;
+    }
+
+    .info {
+        padding: 0 10px;
+    }
+
+    .caixa input[type="checkbox"]:checked ~ .info {
+        padding: 10px;
+    }
 }
