@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.caixa {
+    border: 2px solid grey;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.caixa h2 {
+    margin: 0 0 10px 0;
+}
+
+.info {
+    max-height: 0;
+    overflow: hidden;
+    border-top: 2px solid green;
+    padding: 0 15px;
+    transition: max-height 0.3s, padding 0.3s;
+}
+
+.caixa input[type="checkbox"] {
+    display: none;
+}
+
+.caixa input[type="checkbox"]:checked~.info {
+    max-height: 500px;
+    padding: 15px;
+}
+
+.caixa label {
+    display: block;
+    cursor: pointer;
+}
+
+.info h3 {
+    color: green;
+    margin-top: 0;
+}
+
+.info p {
+    line-height: 1.6;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 40px;
+}
