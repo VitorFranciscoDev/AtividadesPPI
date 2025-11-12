@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <fieldset><input type="text" placeholder="Nome" id="nome" required></fieldset>
+        <fieldset><input type="number" placeholder="Peso (kg)" id="peso" step="0.1" required></fieldset>
+        <fieldset><input type="number" placeholder="Altura (m)" id="altura" step="0.01" required></fieldset>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado">
+        <p id="resultadoIMC"></p>
+        <p id="classificacao"></p>
+        <img src="img/perfil.jpg" alt="Classificacao" id="imgPerfil">
+    </div>
+</body>
+</html>
