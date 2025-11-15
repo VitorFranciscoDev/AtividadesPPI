@@ -1,0 +1,25 @@
+Questão 1
+
+Tag utilizada para definição de código php:
+
+<?php
+
+?>
+
+Exemplo:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 1</title>
+</head>
+<body>
+
+<?php
+    $nome = "Vitor";
+    echo "<h1>Olá, $nome!</h1>";
+?>
+
+</body>
+</html>

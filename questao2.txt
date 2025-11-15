@@ -1,0 +1,3 @@
+Questão 2
+
+Não, o PHP é executado num servidor, o qual pega o código dele, processa e manda o resultado pro navegador, já o JS é executado diretamente no navegador do usuário.
